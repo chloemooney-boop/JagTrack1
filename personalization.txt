@@ -8,7 +8,7 @@ Date: December 2nd, 2025
 
 CHOICE POINT #1: COLOR THEME
 Option Chosen: A
-Explanation: I chose option A for my color theme for a few reasons. First, I wanted to keep a professional look while still having school spirit. I also chose it because I genuinely like the colors and think that they go really well with my website, especially since its a website about the classes I am taking at this school. All in all, I chose option A for my color theme because I wanted to show school-spirit while still keeping an organized and professional look.
+Explanation: I chose option A for my color theme for a few reasons. First, I wanted to keep a professional look while still having school spirit. I also chose it because I genuinely like the colors and think that they go really well with my website, especially since its a website about the classes I am taking at this school. All in all, I chose option A for my color theme because I wanted to show school spirit while still keeping an organized and professional look.
 
 
 ---
@@ -18,39 +18,14 @@ NEXT QUARTER PLANNING (myclassesnextquarter.html)
 
 
 My Classes for Next Quarter:
-- A Block: [Class Name] - [Time]
-- B Block: [Class Name] - [Time] (or Free Period)
-- C Block: [Class Name] - [Time]
-- D Block: [Class Name] - [Time]
-(Add 1st Period if applicable)
+- A Block: Earth Science - 8:25 AM - 9:55 AM
+- B Block: General Psychology - 10:00 AM - 11:30 AM
+- C Block: English 10 - 12:15 PM - 1:45 PM 
+- D Block: Spanish 2 - 1:50 PM - 3:20 PM 
 
-
-Explanation:
-[Write 4-6 sentences about your next quarter schedule:
-- Why did you choose these classes?
-- What are you most looking forward to learning?
-- Which class do you think will be most challenging and why?
-- If you have a free period, how do you plan to use it productively?
-- How will these classes help you reach your academic or career goals?]
-
-
-Free Period Challenge (if applicable):
-[If you have a free period, did you complete the challenge to hide it on mobile? Explain how you implemented it using d-none d-sm-block]
-
-
----
+Explanation: For my next quarter, I did not specifically choose my classes. They are mostly core classes with the exception of my college class. I am most looking forward to the off-block that comes with the college I am taking, but I am looking forward to learning about the natural sciences in Earth Science. I believe that the most challenging class next quarter will be either my General Psychology class or my English class because I have heard that there is a lot of reading in my college class, and English can sometimes be difficult depending on the teacher. When I have off blocks on different days I intend to do reading and other class work in them in order to be productive. These classes will help with my academic and career goals because the three core classes that I am taking will get me credits in order to graduate, and the college class I am taking will get me college credits for when I go to college. 
 
 
 REFLECTION
-
-
-What I Learned:
-[Write 5-8 sentences reflecting on Module 1:
-- What Bootstrap concepts made sense to you?
-- What was most challenging?
-- How do you feel about your CSS customization?
-- What would you add to JagTrack in the future?
-- How will you use this site for planning next quarter?]
-
-
-Hours Spent: [Approximate time on this module]
+What I Learned: To me, the Bootstrap concepts that made sense were the grid system and the prebuilt UI pieces. I would also say that the most challenging concept of Bootstrap was the responsive images because I couldn't figure out how to get the JA logo up even though I added the link and everything. I feel like my CSS customization has improved a lot because I can now style things with colors, borders, font, etc. In the future, I would most likely use JagTrack to keep my classes organized and look back on it if I ever get stuck and don't know what to type for a different assignment. Lastly, I will use this site for planning next quarter by organzing my classes and being able to look back and see what my class is.
+Hours Spent: 3 Hours

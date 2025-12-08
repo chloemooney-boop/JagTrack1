@@ -19,16 +19,41 @@
 
 
 <body>
-
+<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+  <div class="container">
+      <a class="navbar-brand" href="index.html">
+          <img src="img/ja-initials-bLCg4zbA.svg" height="30" width="30" alt="JA Logo" />
+          JagTrack
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jagtrackNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="jagtrackNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" id="theme-toggle">
+                      <span id="theme-icon">☀️</span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
 
 <header class="jumbotron jumbotron-fluid">
-<div class="row align-items-center">
-  <div class="col-4">
-      <h1>JagTrack</h1>
-      <h2>Your Academic Success Hub</h2>
+  <div class="container">
+      <div class="row">
+          <div class="col text-center">
+              <h1>JagTrack</h1>
+              <h2>Your Academic Success Hub</h2>
+          </div>
+      </div>
   </div>
-</div>
 </header>
+
 
 
    <div>
@@ -36,6 +61,73 @@
        <h3>Current Quarter</h3>
        <p>Track all your classes, assignments, and deadlines in one place.</p>
    </div>
+
+   <div class="container">
+  <div class="row">
+      <div class="col">
+          <h2 class="text-center">My Current Classes</h2>
+          <hr />
+      </div>
+  </div>
+
+
+  <ul class="nav nav-tabs" id="classTab" role="tablist">
+      <li class="nav-item">
+          <a class="nav-link active" id="a-block-tab" data-toggle="tab" href="#a-block" role="tab">A Block</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="b-block-tab" data-toggle="tab" href="#b-block" role="tab">B Block</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="c-block-tab" data-toggle="tab" href="#c-block" role="tab">C Block</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" id="d-block-tab" data-toggle="tab" href="#d-block" role="tab">D Block</a>
+      </li>
+  </ul>
+
+
+  <div class="tab-content" id="classTabContent">
+      <div class="tab-pane fade show active" id="a-block" role="tabpanel">
+          <div class="class-card">
+              <h4> 🎭 A Block: Technical Theatre</h4>
+              <h5>8:25 AM - 9:55 AM</h5>
+              <p>Come ready to move beyond theory and straight into live production. This isn't a lecture hall—it's a functioning scene shop and control booth.</p>
+              <a href="https://jajags.instructure.com/courses/3153" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="b-block" role="tabpanel">
+          <div class="class-card">
+              <h4> 💻 B Block: Web Design in HTML & CSS</h4>
+              <h5>10:00 AM - 11:30 AM</h5>
+              <p>Building modern, responsive websites using HTML, CSS, and Bootstrap framework. Creating the JagTrack project!</p>
+              <a href="https://jajags.instructure.com/courses/3438" target="_blank" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="c-block" role="tabpanel">
+          <div class="class-card">
+              <h4> 🌎 C Block: College History</h4>
+              <h5>12:15 PM - 1:45 PM</h5>
+              <p>Walking through the second half of US History, from putting the country back together after the Civil War through the Gilded Age, WWI and the Progressive Era to Great Depression, New Deal and WWII, the 1950s and 1960s to 9/11 in HIS 1220.</p>
+              <a href="https://jajags.instructure.com/courses/3331" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="d-block" role="tabpanel">
+          <div class="class-card">
+              <h4> 📐 D Block: Geometry Honors</h4>
+              <h5>1:50 PM - 3:20 PM</h5>
+              <p>A course exploring shapes, space, and logical reasoning through points, lines, angles, polygons, and circles.</p>
+              <a href="https://jajags.instructure.com/courses/3354" class="btn btn-primary">Go to Canvas →</a>
+          </div>
+      </div>
+  </div>
+</div>
 
 
    <!-- This empty div is where you'll add your Bootstrap schedule in Exercise 2 -->
@@ -145,10 +237,9 @@
            <div class="col-sm-4 text-center">
                <h5>Contact</h5>
                Jefferson Academy Secondary<br />
-               Email: <strong>YOUR_EMAIL_HERE@jajags.com</strong> (Replace with your actual email!)
-           </div>
+               Email: <strong>chloe.mooney@jajags.com</strong> 
        </div>
-   </div>
+   </div> 
    </footer>
 
    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
