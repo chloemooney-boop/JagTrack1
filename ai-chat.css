@@ -217,9 +217,9 @@ h1 {
 
 
 .error-message {
- background: #fef2f2;
- color: #991b1b;
- border: 1px solid #fecaca;
+ background: #f8f7f2;
+ color: #343a40;
+ border: 1px solid #000000;
  padding: 12px 16px;
  border-radius: 8px;
  align-self: center;
@@ -228,15 +228,15 @@ h1 {
 
 /* Update these colors */
 .chat-container {
- background: white; /* Match your theme */
+ background: #f8f7f2; /* Match your theme */
 }
 
 
 #send-button {
- background: #3b82f6; /* Match your primary color */
+ background: #000000; /* Match your primary color */
 }
 
 
 .user-message {
- background: #3b82f6; /* Match send button */
+ background: #000000; /* Match send button */
 }
