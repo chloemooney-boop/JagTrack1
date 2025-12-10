@@ -25,8 +25,8 @@
 
 body {
    font-family: 'Open Sans', sans-serif;
-   color: var(--text-dark);
-   background-color: var(--background-light);
+   color: #000000(--text-dark);
+   background-color: #f8f7f2(--background-light);
 }
 
 
@@ -34,8 +34,8 @@ body {
 
 
 .jumbotron {
-  background: linear-gradient(135deg, var(--jag-black) 0%, #222222 100%);
-  color: var(--text-light);
+  background: linear-gradient(135deg, #000000(--jag-black) 0%, #222222 100%);
+  color: #ffffff(--text-light);
   margin-bottom: 30px;
   padding: 60px 30px;
 }
@@ -51,7 +51,7 @@ body {
 .jumbotron h2 {
   font-size: 1.5rem;
   font-weight: 300;
-  color: var(--jag-gold);
+  color: #f8f7f2(--jag-gold);
 }
 
 
@@ -59,8 +59,8 @@ body {
 
 
 .class-card {
-   background-color: var(--background-white);
-   border-left: 4px solid var(--jag-accent);
+   background-color: #ffffff(--background-white);
+   border-left: 4px solid #000000(--jag-accent);
    border-radius: 8px;
    padding: 1.5rem;
    margin-bottom: 1.5rem;
@@ -70,41 +70,41 @@ body {
 
 
 .class-card:hover {
-  border-left-color: var(--jag-black);
+  border-left-color: #000000(--jag-black);
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 
 .class-card h4 {
-  color: var(--jag-black);
+  color: #000000(--jag-black);
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
 
 .class-card h5 {
-   color: var(--text-dark);
+   color: #000000(--text-dark);
    font-size: 1.25rem;
    margin-bottom: 0.75rem;
 }
 
 
 .class-card p {
-   color: var(--text-muted);
+   color: #6c757d(--text-muted);
    margin-bottom: 0;
 }
 
 
 .class-card a {
-  color: var(--jag-black);
+  color: #000000(--jag-black);
   text-decoration: none;
   font-weight: 600;
 }
 
 
 .class-card a:hover {
-  color: var(--jag-gold);
+  color: #f8f7f2(--jag-gold);
   text-decoration: underline;
 }
 
@@ -127,29 +127,29 @@ body {
 
 
 footer {
-  background-color: var(--jag-black);
-  color: var(--text-light);
+  background-color: #000000(--jag-black);
+  color: #ffffff(--text-light);
   padding: 30px 0;
   margin-top: 50px;
 }
 
 
 footer h5 {
-  color: var(--jag-gold);
+  color: #f8f7f2(--jag-gold);
   font-weight: bold;
   margin-bottom: 15px;
 }
 
 
 footer a {
-   color: var(--text-light);
+   color: #ffffff(--text-light);
    text-decoration: none;
    transition: color 0.3s ease;
 }
 
 
 footer a:hover {
-   color: var(--jag-gold);
+   color: #f8f7f2(--jag-gold);
 }
 
 
@@ -168,7 +168,7 @@ footer ul li {
 
 
 .navbar {
- background: linear-gradient(135deg, var(--jag-black) 0%, #222222 100%);
+ background: linear-gradient(135deg, #000000(--jag-black) 0%, #222222 100%);
  padding: 0.5rem 1rem;
 }
 
@@ -176,7 +176,7 @@ footer ul li {
 .navbar-brand {
  font-size: 1.5rem;
  font-weight: bold;
- color: var(--jag-gold) !important;
+ color: #f8f7f2(--jag-gold) !important;
 }
 
 
@@ -186,7 +186,7 @@ footer ul li {
 
 
 .nav-link {
- color: var(--text-light) !important;
+ color: #ffffff(--text-light) !important;
  font-weight: 500;
  margin: 0 10px;
  transition: color 0.3s ease;
@@ -194,12 +194,12 @@ footer ul li {
 
 
 .nav-link:hover {
- color: var(--jag-gold) !important;
+ color: #f8f7f2(--jag-gold) !important;
 }
 
 
 .navbar-toggler {
- border-color: var(--jag-gold);
+ border-color: #f8f7f2(--jag-gold);
 }
 
 
@@ -217,13 +217,13 @@ body {
 
 
 .nav-tabs {
- border-bottom: 2px solid var(--jag-accent);
+ border-bottom: 2px solid #343a40(--jag-accent);
  margin-bottom: 20px;
 }
 
 
 .nav-tabs .nav-link {
- color: var(--text-dark);
+ color: #000000(--text-dark);
  border: none;
  font-weight: 600;
  padding: 10px 20px;
@@ -232,14 +232,14 @@ body {
 
 
 .nav-tabs .nav-link:hover {
- background-color: var(--background-light);
+ background-color: #ffffff(--background-light);
  color: var(--jag-accent);
 }
 
 
 .nav-tabs .nav-link.active {
- color: var(--jag-black);
- background-color: var(--jag-gold);
+ color: #000000(--jag-black);
+ background-color: #f8f7f2(--jag-gold);
  border: none;
  border-radius: 0;
 }
