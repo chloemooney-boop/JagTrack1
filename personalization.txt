@@ -29,3 +29,18 @@ Explanation: For my next quarter, I did not specifically choose my classes. They
 REFLECTION
 What I Learned: To me, the Bootstrap concepts that made sense were the grid system and the prebuilt UI pieces. I would also say that the most challenging concept of Bootstrap was the responsive images because I couldn't figure out how to get the JA logo up even though I added the link and everything. I feel like my CSS customization has improved a lot because I can now style things with colors, borders, font, etc. In the future, I would most likely use JagTrack to keep my classes organized and look back on it if I ever get stuck and don't know what to type for a different assignment. Lastly, I will use this site for planning next quarter by organzing my classes and being able to look back and see what my class is.
 Hours Spent: 3 Hours
+
+---
+
+EXERCISE 2: GOOGLE CALENDAR INTEGRATION
+
+
+Calendar Setup:
+- Did you create a new calendar or use an existing one? I created a new calendar.
+- How many Canvas iCal feeds did you add? I only added 1 iCal feed.
+- Did you add them individually by course or as one combined feed? I added them as one combined feed.
+
+
+Reflection:
+This calendar integration will help me stay organized and turn assignments in on time. I only faced a few challenges while adding this calendar into my JagTrack page. For instance, I couldn't figure out how to personally customize it, and I also had a bit of trouble trying to figure out what size the calendar needed to be. I customized the calendar by having it be in the colors of Jefferson Academy, black and gold. I personally find that the month view works best for me, especially with being in a college class because it allows me to see long-term due dates and develop a plan for how I am going to turn it in. I may add an athletic calendar so that I can keep track of when I have games, practice, or even special events like banquets.
+---
