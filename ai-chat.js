@@ -76,10 +76,10 @@ async function getAIResponse(userMessage) {
    const stream = hf.chatCompletionStream({
      model: 'Qwen/Qwen2.5-72B-Instruct',
      messages: [
-       {
-         role: 'system',
-         content: 'You are a helpful homework assistant for high school students. Provide clear, educational explanations that help students learn. Keep responses concise and encouraging.'
-       },
+    {
+   role: 'system',
+   content: 'You are a patient tutor helping students prepare for tests. Break down complex topics into simple explanations'
+    },
        { role: 'user', content: userMessage }
      ],
      max_tokens: 250,

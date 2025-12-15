@@ -31,7 +31,7 @@
       <div class="collapse navbar-collapse" id="jagtrackNavbar">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="index.html" id="theme-toggle">Home</a>
               </li>
                 <span id="theme-icon">☀️</span>
                   </a>
@@ -97,7 +97,7 @@
           <div class="class-card">
               <h4> 🎭 A Block: Technical Theatre</h4>
               <h5>8:25 AM - 9:55 AM</h5>
-              <p>Come ready to move beyond theory and straight into live production. This isn't a lecture hall—it's a functioning scene shop and control booth.</p>
+              <p class="d-none d-sm-block">Come ready to move beyond theory and straight into live production. This isn't a lecture hall—it's a functioning scene shop and control booth.</p>
               <a href="https://jajags.instructure.com/courses/3153" class="btn btn-primary">Go to Canvas →</a>
           </div>
       </div>
@@ -107,7 +107,7 @@
           <div class="class-card">
               <h4> 💻 B Block: Web Design in HTML & CSS</h4>
               <h5>10:00 AM - 11:30 AM</h5>
-              <p>Building modern, responsive websites using HTML, CSS, and Bootstrap framework. Creating the JagTrack project!</p>
+              <p class="d-none d-sm-block">Building modern, responsive websites using HTML, CSS, and Bootstrap framework. Creating the JagTrack project!</p>
               <a href="https://jajags.instructure.com/courses/3438" target="_blank" class="btn btn-primary">Go to Canvas →</a>
           </div>
       </div>
@@ -117,7 +117,7 @@
           <div class="class-card">
               <h4> 🌎 C Block: College History</h4>
               <h5>12:15 PM - 1:45 PM</h5>
-              <p>Walking through the second half of US History, from putting the country back together after the Civil War through the Gilded Age, WWI and the Progressive Era to Great Depression, New Deal and WWII, the 1950s and 1960s to 9/11 in HIS 1220.</p>
+              <p class="d-none d-sm-block">Walking through the second half of US History, from putting the country back together after the Civil War through the Gilded Age, WWI and the Progressive Era to Great Depression, New Deal and WWII, the 1950s and 1960s to 9/11 in HIS 1220.</p>
               <a href="https://jajags.instructure.com/courses/3331" class="btn btn-primary">Go to Canvas →</a>
           </div>
       </div>
@@ -127,7 +127,7 @@
           <div class="class-card">
               <h4> 📐 D Block: Geometry Honors</h4>
               <h5>1:50 PM - 3:20 PM</h5>
-              <p>A course exploring shapes, space, and logical reasoning through points, lines, angles, polygons, and circles.</p>
+              <p class="d-none d-sm-block">A course exploring shapes, space, and logical reasoning through points, lines, angles, polygons, and circles.</p>
               <a href="https://jajags.instructure.com/courses/3354" class="btn btn-primary">Go to Canvas →</a>
           </div>
       </div>
@@ -251,7 +251,7 @@
            </div>
            <div class="col-6 col-sm-5 text-center">
                <h5>Connect</h5>
-               <a href="#">Canvas Portal</a> |
+               <a href="https://jajags.instructure.com/">Canvas Portal</a> |
                <a href="#">Study Groups</a> |
                <a href="#">Help Center</a>
            </div>
@@ -263,10 +263,14 @@
    </div> 
    </footer>
 
-   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+<!-- Custom JavaScript for theme toggle -->
+<script src="js/theme-toggle.js"></script>
 
    <a href="ai-chat.html">AI Assistant</a>
 </body>

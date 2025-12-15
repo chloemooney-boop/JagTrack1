@@ -1,26 +1,47 @@
 /* ===== CSS VARIABLES FOR JAGTRACK THEME ===== */
 /* Official Jefferson Academy Colors: Black & Gold */
 
-
+/* ===== CSS VARIABLES FOR LIGHT MODE (DEFAULT) ===== */
 :root {
   /* Primary Brand Colors */
-  --jag-black: #000000;          /* Jefferson Academy Black */
-  --jag-gold: #D7CD89;           /* Jefferson Academy Gold */
-  --jag-accent: #b1a363;         /* Darker gold accent */
+  --jag-black: #cdced1;          /* Jefferson Academy Black */
+  --jag-gold: #ece8c8;           /* Jefferson Academy Gold */
+  --jag-accent: #c4bc9a;         /* Darker gold accent */
 
 
   /* Text Colors */
-  --text-dark: #000000;
+  --text-dark: #1b1a1a83;
   --text-light: #ffffff;
-  --text-muted: #6c757d;
+  --text-muted: #9ca5ad;
 
 
   /* Background Colors */
   --background-light: #f8f7f2;   /* Light gold background */
   --background-white: #ffffff;
-  --background-dark: #343a40;
+  --background-dark: #cecfd1;
 }
 
+/* ===== CSS VARIABLES FOR DARK MODE ===== */
+
+
+[data-theme="dark"] {
+ /* Primary Brand Colors */
+ --jag-black: #000000;
+ --jag-gold: #D7CD89;
+ --jag-accent: #b1a363;
+
+
+ /* Text Colors */
+ --text-dark: #000000;
+ --text-light: #ffffff;
+ --text-muted: #6c757d;
+
+
+ /* Background Colors */
+ --background-light: #f8f7f2;
+ --background-white: #ffffff;
+ --background-dark: #343a40;
+}
 
 /* ===== BODY & GENERAL STYLES ===== */
 

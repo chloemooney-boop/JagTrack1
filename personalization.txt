@@ -43,4 +43,32 @@ Calendar Setup:
 
 Reflection:
 This calendar integration will help me stay organized and turn assignments in on time. I only faced a few challenges while adding this calendar into my JagTrack page. For instance, I couldn't figure out how to personally customize it, and I also had a bit of trouble trying to figure out what size the calendar needed to be. I customized the calendar by having it be in the colors of Jefferson Academy, black and gold. I personally find that the month view works best for me, especially with being in a college class because it allows me to see long-term due dates and develop a plan for how I am going to turn it in. I may add an athletic calendar so that I can keep track of when I have games, practice, or even special events like banquets.
+
+---
+
+EXERCISE 3: DARK/LIGHT MODE TOGGLE
+
+
+Color Scheme Design: 
+For dark mode, I used the original colors that were used for my color theme in module 1 because they were relatively dark and I thought it would be easier to create lighter colors over darker colors. For my light mode, I took the colors from dark mode and just added more white to them. My color choices reflect my style because I wanted to keep school colors to maintain a clean, spirited, professional look and the light mode still keeps school colors, but just makes them lighter than what they originally were. I personally just used a bit of contrast as my color theory principle because I took the darker color, found the contrast, and used that color. I ensured there was a good contrast for accessibility by comparing the colors side by side and seeing that there was a subtle difference between the colors, but nothing that tremendously stood out. The tools I used to help choose colors was the color pallete and w3schools. I did try a few colors that didn't work, but it was mainly colors for the text, and they didn't work because the text was too light and you couldn't see it in addition with the light background.
+
+Theme Preferences:
+- Which theme do you prefer personally and why? I personally prefer dark mode because I find it more aesthetically pleasing, and it make my head and eyes hurt way less.
+- When do you think dark mode is most useful? I personally believe that dark mode is the most useful because if it is dark out and someone has light mode on, it will most likely irritate their eyes, whereas if they had dark mode on, they would be able to see things better.
+- Did you create any custom CSS for the toggle button? I did not create any custom CSS for the toggle button, and just left it as a sun and moon emoji. 
+
+
+JavaScript Understanding:
+JavaScript adds features that allows you to interact with a website, such as drop-down menus. localStorage allows websites to store data on a user's device with no expiration date posted. It is mainly designed to store small amounts of data locally. When I click the theme toggle button, the website switches from light colors to dark colors. The time preference persists when you reload the website because it is using localStorage to save the choice of your theme locally in your browser. I might use JavaScript in future projects to build more interactive websites, games, and maybe even mobile apps. 
+[Write 4-5 sentences showing you understand the JavaScript code:
+- In your own words, what does the JavaScript do?
+- What is localStorage and why is it useful?
+- What happens when you click the theme toggle button?
+- Why does the theme preference persist when you reload the page?
+- How might you use JavaScript in future projects?]
+
+
+---
+
+
 ---
