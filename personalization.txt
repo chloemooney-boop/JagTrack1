@@ -60,12 +60,7 @@ Theme Preferences:
 
 JavaScript Understanding:
 JavaScript adds features that allows you to interact with a website, such as drop-down menus. localStorage allows websites to store data on a user's device with no expiration date posted. It is mainly designed to store small amounts of data locally. When I click the theme toggle button, the website switches from light colors to dark colors. The time preference persists when you reload the website because it is using localStorage to save the choice of your theme locally in your browser. I might use JavaScript in future projects to build more interactive websites, games, and maybe even mobile apps. 
-[Write 4-5 sentences showing you understand the JavaScript code:
-- In your own words, what does the JavaScript do?
-- What is localStorage and why is it useful?
-- What happens when you click the theme toggle button?
-- Why does the theme preference persist when you reload the page?
-- How might you use JavaScript in future projects?]
+
 
 
 ---
