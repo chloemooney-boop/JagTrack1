@@ -309,3 +309,27 @@ body {
    padding-bottom: 56.25%;
  }
 }
+
+/* ===== ABOUT ME PAGE STYLES ===== */
+
+
+.about-hero {
+ background: linear-gradient(135deg, var(--jag-black) 0%, var(--jag-accent) 100%);
+ color: var(--text-light);
+ padding: 80px 20px;
+}
+
+
+.profile-image {
+ max-width: 250px;
+ border: 5px solid var(--jag-gold);
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.about-section {
+ padding: 40px 0;
+}
+
+
+

@@ -67,3 +67,35 @@ JavaScript adds features that allows you to interact with a website, such as dro
 
 
 ---
+
+
+EXERCISE 4: ABOUT ME PAGE (FINAL ASSIGNMENT)
+
+
+Bootstrap Components Used:
+1. Jumbotron (Hero Section) - Used for introduction at the top of the page to tell the user who I am.
+2. Cards - Used for organizing information into catergories and clean boxes.
+3. Badges - Used for showing my skills and interests in a way that doesn't take up too much space.
+4. Buttons - Used for easy links for the user to either contact me or look at work that I am doing/done.
+
+
+
+Design Choices: 
+I mostly chose these specific Bootstrap components because they allowed me to have organization on my about me page. I decided on the layout and structure by envisioning what I believed would look best on my page and from there, took it step by step. Some challenges I faced while building this structure was the colors and some errors that came up along the way. I am most proud of the way my page looks. I believe it looks organized and appealing to the eye. This page reflects my love for my hobbies and my organization that I have. If I had more time, I would improve the colors. I ensured my page was responsive by clicking on every link, leaving the website then coming back, and refreshing the site.
+
+
+
+Research and Problem-Solving: The resources I used were W3Schools, Web Docs, Code HS, and Color Picker. The hardest part to figure out was the bootstrap components, like how to set them up. I had one issue that I needed to troubleshoot, but I just clicked around and deleted a few things, and then it was fixed. I learned that it can take multiple sources before you have a component that actually works and is compatible with your website. My confidence has definitely grown a lot between module 1 and module 2 because at first, I had no clue what bootstrap was, and now, I know how to implement it.
+[Write 4-5 sentences about your learning process: 
+- What resources did you use (Bootstrap docs, W3Schools, etc.)?
+- What was the hardest part to figure out?
+- Did you need to troubleshoot any issues? How did you solve them?
+- What did you learn about researching and implementing new components?
+- How has your confidence with Bootstrap grown from Module 1 to Module 2?]
+
+
+---
+
+
+---
+

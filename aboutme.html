@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+  .btn-gold {
+    background-color: #d4af37 !important;
+    color: black !important;
+    border: none !important;
+  }
+
+  .btn-gold:hover {
+    background-color: #b8962e !important;
+    color: black !important;
+  }
+</style>
 
 <head>
   <!-- Required meta tags -->
@@ -10,7 +22,72 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+<div class="p-5 mb-4 bg-dark text-white rounded">
+  <div class="container py-5">
+    <h1 class="display-5 fw-bold">Hi, I'm Chloe 👋</h1>
+    <p class="fs-4">
+      I’m a high school student learning web development and building cool projects with HTML, CSS, and Bootstrap.
+    </p>
+  </div>
+</div>
 
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">
+            I enjoy softball, basketball, reading, and spending time with family.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h5 class="card-title">School</h5>
+          <p class="card-text">
+            I am a student at Jefferson Academy working to complete my highschool career.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <h5 class="card-title">Goals</h5>
+          <p class="card-text">
+            Graduate highschool and go to college where I will study Marine Biology.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mb-4">
+  <h3>Skills</h3>
+  <span class="badge bg-dark">HTML</span>
+  <span class="badge bg-success">CSS</span>
+  <span class="badge bg-info text-dark">Basketball</span>
+  <span class="badge bg-warning text-dark">Softball</span>
+</div>]
+
+<div class="container mb-5 text-center">
+  <h3 class="mb-4">Connect With Me</h3>
+
+  <div class="d-grid gap-2 d-md-block">
+    <a href="gmail.com" class="btn btn-dark btn-lg m-1">Email Me</a>
+    <a href="https://github.com/chloemooney-boop" class="btn btn-gold btn-lg m-1">My Projects</a>
+    <a href="https://github.com/chloemooney-boop/JagTrack1" class="btn btn-dark btn-lg m-1">GitHub</a>
+  </div>
+</div>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css" />
@@ -26,7 +103,6 @@
 <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
   <div class="container">
       <a class="navbar-brand" href="index.html">
-
           JagTrack
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jagtrackNavbar">
@@ -35,9 +111,20 @@
       <div class="collapse navbar-collapse" id="jagtrackNavbar">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                  <a class="nav-link" href="aboutme.html" id="theme-toggle">About Me</a>
+                  <a class="nav-link" href="index.html">Home</a>
               </li>
-                <span id="theme-icon">☀️</span>
+              <li class="nav-item">
+                  <a class="nav-link" href="myclassesnextquarter.html">Next Quarter</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="ai-chat.html">AI Chat</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" id="theme-toggle">
+                      <span id="theme-icon">☀️</span>
                   </a>
               </li>
           </ul>
@@ -46,14 +133,71 @@
 </nav>
 
 
-  YOUR CONTENT GOES HERE - THIS IS WHERE YOU GET CR
-<div class="p-5 mb-4 bg-light rounded-3">
-  <div class="container-fluid py-5">
-    <h1 class="display-5 fw-bold">Chloe Mooney</h1>
-    <p class="col-md-8 fs-4">"Do it for the plot"</p>
-    <img class="img-fluid" src="https://static.vecteezy.com/system/resources/thumbnails/066/245/286/small/female-softball-player-silhouette-illustration-vector.jpg">Athlete</img>
+
+  
+<section class="hero d-flex align-items-center text-center">
+    <div class="container">
+      
+      <!-- Profile Image -->
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/066/245/268/small/woman-softball-player-in-action-silhouette-vector.jpg" alt="My Photo" class="img-fluid mb-4">
+
+      <!-- Name -->
+      <h1 class="display-4 fw-bold">Chloe Mooney</h1>
+
+      <!-- Subtitle -->
+      <p class="lead">
+        Grade 10 Student | Jefferson Academy High School
+      </p>
+
+    </div>
+  </section>
+
+  <div class="container">
+  <h3>My Hobbies</h3>
+  <div class="row">
+      <div class="col-12 col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">🥎 Softball</h5>
+                  <p class="card-text">Playing on the JA Softball team. Position: shortstop. Practice 5x/week depending on games.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">📚 Reading</h5>
+                  <p class="card-text">Favorite genres: fantasy and romance. Currently reading the Fourth Wing Series.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-4">
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">🏀 Basketball</h5>
+                  <p class="card-text">Playing on the JA Basketball team. Position: small forward. Practice 5x/week.</p>
+              </div>
+          </div>
+      </div>
   </div>
 </div>
+
+<div class="container">
+  <h3>My Goals</h3>
+  <div class="alert alert-success">
+      <h5>Academic Goal</h5>
+      <p>Maintain a 4.0 GPA, stop procrastinating, and use my full effort on every assignment or test.</p>
+  </div>
+  <div class="alert alert-info">
+      <h5>Career Goal</h5>
+      <p>Become a marine biologist and explore the sea. Planning to study marine biology in college.</p>
+  </div>
+  <div class="alert alert-warning">
+      <h5>Personal Goal</h5>
+      <p>Get 1% better every day and learn from my mistakes.</p>
+  </div>
+</div>
+
 
    <footer>
    <div class="container">
@@ -62,16 +206,16 @@
                <h5>Quick Links</h5>
                <ul class="list-unstyled">
                    <li><a href="index.html">Home</a></li>
-                   <li><a href="#">My Classes</a></li>
-                   <li><a href="#">Resources</a></li>
-                   <li><a href="#">Contact</a></li>
+                   <li><a href="https://jajags.instructure.com/">My Classes</a></li>
+                   <li><a href="index.html">Resources</a></li>
+                   <li><a href="gmail.com">Contact</a></li>
                </ul>
            </div>
            <div class="col-6 col-sm-5 text-center">
                <h5>Connect</h5>
                <a href="https://jajags.instructure.com/">Canvas Portal</a> |
-               <a href="#">Study Groups</a> |
-               <a href="#">Help Center</a>
+               <a href="groupme.com">Study Groups</a> |
+               <a href="ai-chat.html">Help Center</a>
            </div>
            <div class="col-sm-4 text-center">
                <h5>Contact</h5>
